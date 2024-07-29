@@ -1,7 +1,7 @@
 export function request(ctx) {
   const { ingredients = [] } = ctx.args;
 
-  const prompt = `Suggest a recipe idea using these ingredients : ${ingredients.join(
+  const prompt = `Write a python code for generating OpenDrive and OpenScenario standards based on the users input defined in : ${ingredients.join(
     ","
   )}.`;
 
