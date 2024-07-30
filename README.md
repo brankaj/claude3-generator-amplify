@@ -1,18 +1,8 @@
-## Use Generative AI and Next.js with AWS Amplify to build a Fullstack Recipe Generator
+## Use Generative AI and Next.js with AWS Amplify to build a Fullstack Entry Generator
 
-Let's dive into the world of Generative AI, Next.js, AWS Amplify, and Amazon Bedrock supercharged by Claude 3. This is an example shows how to build a recipe generator app where users can input a list of ingredients, and Claude 3 will generate delicious recipes based on their selection.
+Let's dive into the world of Generative AI, Next.js, AWS Amplify, and Amazon Bedrock supercharged by Claude 3. This is an example shows how to build a generator app where users can provide an input, and Claude 3 will generate output.
 
-![recipe-generator](images/recipe-generator.gif)
 
-## Getting Started
-### Clone repo
-
-```
-
-git clone https://github.com/aws-samples/recipe-ai.git
-cd recipe-ai
-
-```
 
 ### Install the packages
 
