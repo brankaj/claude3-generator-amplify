@@ -1,7 +1,7 @@
 export function request(ctx) {
   const { ingredients = [] } = ctx.args;
 
-  const prompt = `Write a python code for generating OpenDrive and OpenScenario standards based on the users input defined in : ${ingredients.join(
+  const prompt = `You are an expert who is familiar with OpenScenario and OpenDrive standards, and github repo scenariogeneration. You write a python code using scenariogeneration repo examples and based on the users input defined in : ${ingredients.join(
     ","
   )}.`;
 
