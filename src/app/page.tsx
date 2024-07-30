@@ -29,7 +29,6 @@ export default function Home() {
       <div className=" pb-10 mx-auto text-center flex flex-col items-start -center max-w-3xl">
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
          Scenario Generation 
-          <span className=" text-blue-600"> ODR and OSC </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
             Please describe the scenario of interest
           </p>
